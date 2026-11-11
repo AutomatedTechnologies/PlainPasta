@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -260,8 +260,8 @@
 		4A4E591B2176AE7A002CF83D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1200;
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Levelsoft;
 				TargetAttributes = {
 					4A40250A2509AF5100F893AA = {
@@ -270,7 +270,7 @@
 					};
 					4A4E59222176AE7A002CF83D = {
 						CreatedOnToolsVersion = 10.0;
-						LastSwiftMigration = 1200;
+						LastSwiftMigration = 1010;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 0;
@@ -283,7 +283,7 @@
 				};
 			};
 			buildConfigurationList = 4A4E591E2176AE7A002CF83D /* Build configuration list for PBXProject "PlainPasta" */;
-			compatibilityVersion = "Xcode 12.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
