@@ -10,7 +10,7 @@ enum LocalizedStrings {
 	static let aboutPlainPastaMenuItemTitle = NSLocalizedString(
 		"aboutPlainPastaMenuItemTitle",
 		value: "About Plain Pasta…",
-		comment: #"Title for the "About" menu item"#
+		comment: "Title for the \"About\" menu item"
 	)
 
 	/// Localized version of "Enabled"
@@ -18,7 +18,7 @@ enum LocalizedStrings {
 	static let enabledMenuItemTitle = NSLocalizedString(
 		"enabledMenuItemTitle",
 		value: "Enabled",
-		comment: #"Title for the "Enabled" menu item"#
+		comment: "Title for the \"Enabled\" menu item"
 	)
 
 	/// Localized version of "Quit"
@@ -26,7 +26,7 @@ enum LocalizedStrings {
 	static let quitMenuItemTitle = NSLocalizedString(
 		"quitMenuItemTitle",
 		value: "Quit",
-		comment: #"Title for the "Quit" menu item"#
+		comment: "Title for the \"Quit\" menu item"
 	)
 
 	/// Localized version of "Debug"
@@ -34,7 +34,7 @@ enum LocalizedStrings {
 	static let debugMenuItemTitle = NSLocalizedString(
 		"debugMenuItemTitle",
 		value: "Debug",
-		comment: #"Title for the "Debug" menu item"#
+		comment: "Title for the \"Debug\" menu item"
 	)
 
 	// MARK: - Version Number

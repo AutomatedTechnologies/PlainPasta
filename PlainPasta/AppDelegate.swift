@@ -41,7 +41,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 extension AppDelegate: Enablable {
 
 	private(set) var isEnabled: Bool {
-		get { Settings.filteringEnabled }
+		get { return Settings.filteringEnabled }
 		set {
 			Settings.filteringEnabled = newValue
 			if newValue {

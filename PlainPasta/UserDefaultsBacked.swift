@@ -2,10 +2,15 @@
 
 import Foundation
 
-/// Simple property wrapper for UserDefaults
+/// Simple backing store for UserDefaults values
 ///
 /// Based off of John Sundell's [Property wrappers in Swift article](https://swiftbysundell.com/articles/property-wrappers-in-swift/)
-@propertyWrapper
+///
+/// Academy downgrade (Swift 4.2 / Xcode 10.1): property wrappers are a Swift 5.1
+/// feature (SE-0258), so this type is a plain struct, not a property wrapper.
+/// `Settings` holds one instance per setting and forwards its accessors to
+/// `wrappedValue` below — exactly the storage and accessors the Swift 5.1
+/// compiler synthesized for the wrapper. The get/set logic is unchanged.
 struct UserDefaultsBacked<T> {
 	private let key: String
 	private let defaultValue: T
@@ -45,5 +50,5 @@ private protocol AnyOptional {
 }
 
 extension Optional: AnyOptional {
-	var isNil: Bool { self == nil }
+	var isNil: Bool { return self == nil }
 }
